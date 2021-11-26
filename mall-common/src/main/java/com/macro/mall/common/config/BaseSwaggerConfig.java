@@ -16,6 +16,7 @@ import java.util.List;
 /**
  * Swagger基础配置
  * Created by macro on 2020/7/16.
+ * 地址URL:http://localhost:8080/doc.html
  */
 public abstract class BaseSwaggerConfig {
 

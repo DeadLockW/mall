@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 119.91.139.213:8848
+      config:
+        enabled: true
+        namespace: c9c583af-793e-4a91-bc8b-6ae316e19b54
+        server-addr: 119.91.139.213:8848
+        extension-configs:
+          - data-id: mall-portal.yml
+            refresh: true  #开启配置刷新
+            group: DEFAULT_GROUP
+          - data-id: redis.yml
+            refresh: true
+            group: DEFAULT_GROUP
+          - data-id: rabbitmq.yml
+            refresh: true
+            group: DEFAULT_GROUP
